@@ -1,5 +1,6 @@
-/* Asegura que el fondo sea negro y el contenedor del número esté centrado en la pantalla */
+/* Importa la fuente elegida desde Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
 body {
     background-color: black;  /* Fondo negro */
     display: flex;            /* Usar Flexbox para centrar */
@@ -12,9 +13,14 @@ body {
 
 /* Estilo del número */
 #prime-number {
-    color: white;              /* Número en blanco */
-    font-size: 8rem;           /* Tamaño grande del número */
-    font-family: 'Playfair Display', serif;  /* Fuente sans-serif */
-    text-align: center;        /* Alineación centrada del texto */
-    user-select: none;
+    color: white;                   /* Número en blanco */
+    font-size: 8rem;                /* Tamaño grande del número */
+    font-family: 'Playfair Display', serif; /* Fuente elegante */
+    text-align: center;             /* Alineación centrada del texto */
+    user-select: none;              /* Evita que el texto sea seleccionable */
+    display: flex;                  /* Flex para centrar internamente */
+    justify-content: center;        /* Centrar internamente */
+    align-items: center;            /* Centrar internamente */
+    width: 100%;                    /* Ancho completo */
+    height: 100%;                   /* Alto completo */
 }
