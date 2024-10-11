@@ -1,0 +1,26 @@
+/* Importa la fuente elegida desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+    background-color: black;  /* Fondo negro */
+    display: flex;            /* Usar Flexbox para centrar */
+    justify-content: center;  /* Centrar horizontalmente */
+    align-items: center;      /* Centrar verticalmente */
+    height: 100vh;            /* Usar toda la altura de la ventana */
+    margin: 0;                /* Quitar márgenes */
+    overflow: hidden;         /* Evitar scroll */
+}
+
+/* Estilo del número */
+#prime-number {
+    color: white;                   /* Número en blanco */
+    font-size: 50vh;                /* Tamaño grande del número */
+    font-family: 'Open Sans', sans-serif; /* Fuente elegante */
+    text-align: center;             /* Alineación centrada del texto */
+    user-select: none;              /* Evita que el texto sea seleccionable */
+    display: flex;                  /* Flex para centrar internamente */
+    justify-content: center;        /* Centrar internamente */
+    align-items: center;            /* Centrar internamente */
+    width: 100%;                    /* Ancho completo */
+    height: 100%;                   /* Alto completo */
+}
