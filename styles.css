@@ -14,7 +14,7 @@ body {
 /* Estilo del número */
 #prime-number {
     color: white;                   /* Número en blanco */
-    font-size: 8rem;                /* Tamaño grande del número */
+    font-size: 15rem;                /* Tamaño grande del número */
     font-family: 'Playfair Display', serif; /* Fuente elegante */
     text-align: center;             /* Alineación centrada del texto */
     user-select: none;              /* Evita que el texto sea seleccionable */
