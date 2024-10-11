@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#prime-number {
+    color: white;
+    font-size: 5rem;
+    font-family: Arial, sans-serif;
+}
