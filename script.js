@@ -2,6 +2,20 @@ const primeDisplay = document.getElementById('prime-number');
 let primes = [2];
 let currentIndex = 0;
 
+// Función para solicitar pantalla completa
+function requestFullscreen() {
+    const elem = document.documentElement; // El elemento raíz de la página
+    if (elem.requestFullscreen) {
+        elem.requestFullscreen();
+    } else if (elem.mozRequestFullScreen) { // Firefox
+        elem.mozRequestFullScreen();
+    } else if (elem.webkitRequestFullscreen) { // Chrome, Safari y Opera
+        elem.webkitRequestFullscreen();
+    } else if (elem.msRequestFullscreen) { // IE/Edge
+        elem.msRequestFullscreen();
+    }
+}
+
 // Función para verificar si un número es primo
 function isPrime(num) {
     if (num <= 1) return false;
@@ -42,4 +56,3 @@ document.addEventListener('contextmenu', (event) => {
         }
     }
 });
-
