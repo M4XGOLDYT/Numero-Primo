@@ -1,14 +1,18 @@
+/* Asegura que el fondo sea negro y el contenedor del número esté centrado en la pantalla */
 body {
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+    background-color: black;  /* Fondo negro */
+    display: flex;            /* Usar Flexbox para centrar */
+    justify-content: center;  /* Centrar horizontalmente */
+    align-items: center;      /* Centrar verticalmente */
+    height: 100vh;            /* Usar toda la altura de la ventana */
+    margin: 0;                /* Quitar márgenes */
+    overflow: hidden;         /* Evitar scroll */
 }
 
+/* Estilo del número */
 #prime-number {
-    color: white;
-    font-size: 5rem;
-    font-family: Arial, sans-serif;
+    color: white;              /* Número en blanco */
+    font-size: 8rem;           /* Tamaño grande del número */
+    font-family: Arial, sans-serif;  /* Fuente sans-serif */
+    text-align: center;        /* Alineación centrada del texto */
 }
