@@ -1,4 +1,5 @@
 /* Asegura que el fondo sea negro y el contenedor del número esté centrado en la pantalla */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
 body {
     background-color: black;  /* Fondo negro */
     display: flex;            /* Usar Flexbox para centrar */
@@ -13,6 +14,7 @@ body {
 #prime-number {
     color: white;              /* Número en blanco */
     font-size: 8rem;           /* Tamaño grande del número */
-    font-family: Arial, sans-serif;  /* Fuente sans-serif */
+    font-family: 'Playfair Display', serif;  /* Fuente sans-serif */
     text-align: center;        /* Alineación centrada del texto */
+    user-select: none;
 }
